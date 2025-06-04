@@ -1,0 +1,120 @@
+:root {
+  --main-bg: #ffffff;
+  --main-text: #000000;
+  --link-color: #500000;
+  --header-bg: #500000;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
+.bg-maroon {
+  background-color: #500000 !important;
+  color: white !important;
+}
+
+.btn-maroon {
+  background-color: #500000 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-maroon:hover {
+  background-color: #330000 !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: #500000 !important;
+}
+
+.btn-primary {
+  background-color: #500000 !important;
+  border-color: #500000 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #330000 !important;
+  border-color: #330000 !important;
+  color: white !important;
+}
+
+a,
+a:visited {
+  color: #500000;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #330000;
+  text-decoration: underline;
+}
+
+a[href^=\"mailto:\"] {
+  color: #500000;
+}
+
+a[href^=\"mailto:\"]:hover {
+  color: #330000;
+}
+
+hr {
+  border-color: #500000;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  color: #500000 !important;
+}
+.navbar {
+  background-color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover {
+  color: #330000 !important;
+
+  .dark-mode .navbar-light .navbar-nav .nav-link,
+.dark-mode .navbar-light .navbar-brand {
+  color: white !important;
+
+.dark-mode {
+  --main-bg: #121212;
+  --main-text: #ffffff;
+  --link-color: #bb86fc;
+  --header-bg: #1f1f1f;
+  background-color: var(--main-bg) !important;
+  color: var(--main-text) !important;
+}
+
+.dark-mode a {
+  color: var(--link-color);
+}
+
+.dark-mode hr {
+  border-color: var(--link-color);
+}
+
+.toggle-dark-mode {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  padding: 8px 12px;
+  background-color: #500000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-outline {
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+.text-outline {
+  text-shadow: 1px 1px 2px black;
+}
