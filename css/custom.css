@@ -112,7 +112,9 @@ footer small {
   background-color: var(--main-bg) !important;
   color: var(--main-text) !important;
 }
-
+#services {
+  padding-bottom: 80px;
+}
 .dark-mode a {
   color: var(--link-color);
 }
