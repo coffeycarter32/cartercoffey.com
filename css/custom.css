@@ -97,7 +97,9 @@ body {
   background-color: var(--main-bg);
   color: var(--main-text);
 }
-
+footer small {
+  font-family: 'Crimson Pro', Georgia, serif !important;
+}
   .dark-mode .navbar-light .navbar-nav .nav-link,
 .dark-mode .navbar-light .navbar-brand {
   color: white !important;
