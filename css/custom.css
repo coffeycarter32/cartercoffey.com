@@ -75,6 +75,9 @@ body {
   font-family: 'Crimson Pro', Georgia, serif;
 }
 
+.instagram-media {
+  margin: 0 auto !important;
+}
 h1, h2, h3, h4, h5, h6, .section-heading {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
