@@ -4,6 +4,24 @@
   --link-color: #500000;
   --header-bg: #500000;
 }
+body {
+  font-family: 'Crimson Pro', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6, .section-heading {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+.navbar-brand,
+.btn,
+a.btn {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body {
+  line-height: 1.7;
+}
 
 body {
   background-color: var(--main-bg);
